@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Kunstmaan\UtilitiesBundle\Helper\Cipher;
+namespace Kunstmaan\UtilitiesBundle\Tests\Helper\Cipher;
 
 use Kunstmaan\UtilitiesBundle\Helper\Cipher\UrlSafeCipher;
 use PHPUnit\Framework\TestCase;

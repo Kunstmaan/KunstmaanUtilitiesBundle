@@ -1,13 +1,10 @@
 <?php
 
-namespace Tests\Kunstmaan\UtilitiesBundle\Helper\Cipher;
+namespace Kunstmaan\UtilitiesBundle\Tests\Helper\Cipher;
 
 use Kunstmaan\UtilitiesBundle\Helper\Cipher\Cipher;
 use PHPUnit\Framework\TestCase;
 
-/**
- * CipherTest
- */
 class CipherTest extends TestCase
 {
     const SECRET = 'secret';

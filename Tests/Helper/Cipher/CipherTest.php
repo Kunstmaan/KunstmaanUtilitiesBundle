@@ -1,13 +1,10 @@
 <?php
 
-namespace Tests\Kunstmaan\UtilitiesBundle\Helper\Cipher;
+namespace Kunstmaan\UtilitiesBundle\Tests\Helper\Cipher;
 
 use Kunstmaan\UtilitiesBundle\Helper\Cipher\Cipher;
 use PHPUnit\Framework\TestCase;
 
-/**
- * CipherTest
- */
 class CipherTest extends TestCase
 {
     const SECRET = 'secret';
@@ -27,14 +24,6 @@ class CipherTest extends TestCase
     protected function setUp()
     {
         $this->cipher = new Cipher(self::SECRET);
-    }
-
-    /**
-     * Tears down the fixture, for example, closes a network connection.
-     * This method is called after a test is executed.
-     */
-    protected function tearDown()
-    {
     }
 
     /**

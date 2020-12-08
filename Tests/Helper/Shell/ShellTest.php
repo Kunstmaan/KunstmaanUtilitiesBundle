@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Kunstmaan\UtilitiesBundle\Helper\Shell;
+namespace Kunstmaan\UtilitiesBundle\Tests\Helper\Shell;
 
 use Kunstmaan\UtilitiesBundle\Helper\Shell\Shell;
 use PHPUnit\Framework\TestCase;

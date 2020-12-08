@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Kunstmaan\UtilitiesBundle\Helper\Cipher;
+namespace Kunstmaan\UtilitiesBundle\Tests\Helper\Cipher;
 
 use Kunstmaan\UtilitiesBundle\Helper\Cipher\UrlSafeCipher;
 use PHPUnit\Framework\TestCase;
@@ -27,14 +27,6 @@ class UrlSafeCipherTest extends TestCase
     protected function setUp()
     {
         $this->cipher = new UrlSafeCipher(self::SECRET);
-    }
-
-    /**
-     * Tears down the fixture, for example, closes a network connection.
-     * This method is called after a test is executed.
-     */
-    protected function tearDown()
-    {
     }
 
     /**

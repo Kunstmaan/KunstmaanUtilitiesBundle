@@ -1,13 +1,10 @@
 <?php
 
-namespace Tests\Kunstmaan\NodeBundle\Helper;
+namespace Kunstmaan\NodeBundle\Tests\Helper;
 
 use Kunstmaan\UtilitiesBundle\Helper\Slugifier;
 use PHPUnit\Framework\TestCase;
 
-/**
- * SlugifierTest
- */
 class SlugifierTest extends TestCase
 {
     /**
@@ -15,9 +12,6 @@ class SlugifierTest extends TestCase
      */
     private $slugifier;
 
-    /**
-     * {@inheritdoc}
-     */
     public function setUp()
     {
         $this->slugifier = new Slugifier();
@@ -52,9 +46,6 @@ class SlugifierTest extends TestCase
         ];
     }
 
-    /**
-     * {@inheritdoc}
-     */
     protected function tearDown()
     {
         parent::tearDown();

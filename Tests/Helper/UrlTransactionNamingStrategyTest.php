@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Kunstmaan\UtilitiesBundle\Helper;
+namespace Kunstmaan\UtilitiesBundle\Tests\Helper;
 
 use Kunstmaan\UtilitiesBundle\Helper\UrlTransactionNamingStrategy;
 use PHPUnit\Framework\TestCase;
